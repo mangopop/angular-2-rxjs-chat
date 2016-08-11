@@ -1,10 +1,10 @@
 import { uuid } from './util/uuid';
 
 export class User {
+    //generated from uuid random string function
   id: string;
 
-  constructor(public name: string,
-              public avatarSrc: string) {
+  constructor(public name: string,public avatarSrc: string){
     this.id = uuid();
   }
 }

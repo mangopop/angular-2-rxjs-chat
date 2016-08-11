@@ -14,6 +14,8 @@ import {User} from '../models';
 @Injectable()
 export class UserService {
   // `currentUser` contains the current user
+  // BehaviourSubject has a special property in that it stores the last value. Meaning that any subscriber to the stream will receive the latest value.
+  // subject is like a read/write stream 
   currentUser: Subject<User> = new BehaviorSubject<User>(null);
 
   public setCurrentUser(newUser: User): void {
