@@ -1,21 +1,24 @@
-/* tslint:disable:no-unused-variable */
+import {
+  it,
+  describe,
+  expect,
+  beforeEachProviders
+} from '@angular/core/testing';
 
-import { addProviders, async, inject } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+// import {MessagesService} from '../app/ts/services/services';
 
-describe('App: RxjsChat', () => {
+import {Calculator} from 'calculator';
 
-  beforeEach(() => {
-    addProviders([AppComponent]);
+describe('Hello', () => {
+
+  it('should test', () => {
+    // let m = MessagesService;
   });
 
-  it('should create the app',
-    inject([AppComponent], (app: AppComponent) => {
-      expect(app).toBeTruthy();
-    }));
+  it('should add', () => {
+    let c = new Calculator();
+    expect(true).toBe(true);
+    expect(c.add(1,2)).toBe(3);
+  });
 
-  it('should have as title \'app works!\'',
-    inject([AppComponent], (app: AppComponent) => {
-      expect(app.title).toEqual('app works!');
-    }));
 });
