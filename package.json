@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "ang-2-rxjs-chat",
+=======
+  "name": "rxjs-chat",
+>>>>>>> 581ceded1e08f21faca9ed4a287a1444d1c716a1
   "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},

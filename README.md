@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Ang2RxjsChat
+=======
+# RxjsChat
+>>>>>>> 581ceded1e08f21faca9ed4a287a1444d1c716a1
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.10.
 

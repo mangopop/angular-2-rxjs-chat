@@ -1,7 +1,11 @@
 {
   "project": {
     "version": "1.0.0-beta.10",
+<<<<<<< HEAD
     "name": "ang-2-rxjs-chat"
+=======
+    "name": "rxjs-chat"
+>>>>>>> 581ceded1e08f21faca9ed4a287a1444d1c716a1
   },
   "apps": [
     {
